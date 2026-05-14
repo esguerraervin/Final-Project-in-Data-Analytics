@@ -4,7 +4,7 @@
 
 ### Data Quality Issues & Resolution Log
 ![Status](https://img.shields.io/badge/Data-Cleaning-orange)
-![Dataset](https://img.shields.io/badge/Dataset-dataset_transformed-blue)
+![Dataset](https://img.shields.io/badge/Data-Transformed-blue)
 ![Rows](https://img.shields.io/badge/Rows-299,997-success)
 
 </div>
