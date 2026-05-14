@@ -3,10 +3,9 @@
 # 📘 Documentation
 
 ### Data Quality Issues & Resolution Log
-
+![Status](https://img.shields.io/badge/Data-Cleaning-orange)
 ![Dataset](https://img.shields.io/badge/Dataset-dataset_transformed-blue)
 ![Rows](https://img.shields.io/badge/Rows-299,997-success)
-![Status](https://img.shields.io/badge/Documentation-Completed-orange)
 
 </div>
 
