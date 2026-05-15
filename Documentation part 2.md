@@ -50,4 +50,3 @@ This project follows the **Pyramid Framework**, where the analysis starts from b
 | Summary | **Internship Rate** | `DIVIDE([Internship Count], [Total Graduates])` | Calculates percentage of graduates with internship experience |
 | Data Quality | **GPA Above 4 Count** | `CALCULATE([Total Graduates], fact_graduate_employment[GPA_Above_4] = TRUE())` | Counts records with GPA above 4 |
 | Data Quality | **Grad Age Under 16 Count** | `CALCULATE([Total Graduates], fact_graduate_employment[Grad_Age_Under_16] = TRUE())` | Counts records with estimated graduation age below 16 |
-
