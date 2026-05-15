@@ -54,23 +54,30 @@ EDA helps answer questions such as:
 
 ---
 
----
+### 1. Employment Overview Dashboard
+![Employment Overview](./1%20-%20Employment%20Overview.png)
 
-## 🖥️ Dashboard Documentation
-
-| Dashboard Element | Description | Purpose |
-|:---|:---|:---|
-| Dashboard Title | International Graduate Employment Analytics Dashboard | Identifies the main topic of the dashboard |
-| Dashboard Tool | Power BI | Used for data visualization, KPI creation, filtering, and interactive reporting |
-| Dashboard Framework | DASH Framework | Used to organize the dashboard based on decision, audience, signal, and hierarchy |
-| Main Objective | Analyze international graduate employment outcomes | Helps understand employment status, salary, education, field of study, internship experience, and graduate profile |
-| Target Audience | Students, educators, school administrators, and career planning officers | Helps users understand employment trends and support career-related decisions |
-| Data Model | Star Schema | Connects one fact table to multiple dimension tables for better filtering and analysis |
-| Fact Table | `fact_graduate_employment` | Stores graduate records, numeric measures, and foreign keys |
-| Dimension Tables | Country, Education, Field, Language, Visa, Gender, Region, Internship, Employment Status, Job Sector | Stores descriptive categories used for slicers and chart grouping |
-| Interactivity | Slicers and chart interactions | Allows users to filter and explore the data by country, education, field, region, gender, visa type, and employment status |
+- KPI Cards
+- Employment Distribution
+- Graduate Overview Metrics
 
 ---
+
+### 2. Salary Analysis Dashboard
+![Salary Analysis](./2%20-%20Salary%20Analysis.png)
+
+- Salary Distribution
+- Average Salary by Sector
+- Salary Trend Analysis
+
+---
+
+### 3. Graduate Profile Dashboard
+![Graduate Profile](./3%20-%20Graduate%20Profile.png)
+
+- Demographic Analysis
+- GPA and Education Insights
+- Internship and Employment Comparison
 
 ---
 
@@ -85,7 +92,6 @@ EDA helps answer questions such as:
 
 ---
 
----
 
 ## 📈 Dashboard Visuals
 
