@@ -175,3 +175,50 @@ erDiagram
     fact_graduate_employment }o--|| dim_jobs_sector : JobSector_ID
 
 
+
+
+# Exploratory Data Analysis (EDA)
+
+## EDA Objective
+
+| Section | Description |
+|---|---|
+| Objective | Analyze international graduate employment outcomes using Power BI |
+| Main Focus | Employment status, salary, education level, field of study, internship experience, GPA, and graduate profile |
+| Purpose | Identify patterns that explain employment outcomes and salary differences |
+| Tool Used | Power BI |
+
+---
+
+## Pyramid Framework
+
+| Pyramid Level | Description | Applied In This Project |
+|---|---|---|
+| Top Level | Main objective | Understand international graduate employment outcomes |
+| Middle Level | Key metrics and KPIs | Employment Rate, Unemployment Rate, Average Salary, Average GPA, Internship Rate |
+| Bottom Level | Supporting metrics | Total Graduates, Employed Graduates, Unemployed Graduates, Continuing Education, Average Age |
+
+---
+
+## Key Metrics and DAX Measures
+
+| Measure Name | DAX Formula | Purpose |
+|---|---|---|
+| Total Graduates | `COUNTROWS(fact_graduate_employment)` | Counts all graduate records |
+| Employed Graduates | `CALCULATE([Total Graduates], dim_employment_status[Employment_Status] = "Employed")` | Counts graduates who are employed |
+| Unemployed Graduates | `CALCULATE([Total Graduates], dim_employment_status[Employment_Status] = "Unemployed")` | Counts graduates who are unemployed |
+| Continuing Education | `CALCULATE([Total Graduates], dim_employment_status[Employment_Status] = "Continuing Education")` | Counts graduates who are continuing education |
+| Employment Rate | `DIVIDE([Employed Graduates], [Total Graduates])` | Calculates the percentage of employed graduates |
+| Unemployment Rate | `DIVIDE([Unemployed Graduates], [Total Graduates])` | Calculates the percentage of unemployed graduates |
+| Continuing Education Rate | `DIVIDE([Continuing Education], [Total Graduates])` | Calculates the percentage of graduates continuing education |
+| Average Salary | `AVERAGE(fact_graduate_employment[Salary])` | Calculates the average salary of employed graduates |
+| Total Salary | `SUM(fact_graduate_employment[Salary])` | Calculates the total salary of employed graduates |
+| Average GPA | `AVERAGE(fact_graduate_employment[GPA])` | Calculates the average GPA |
+| Average Age | `AVERAGE(fact_graduate_employment[Age])` | Calculates the average age |
+| Average Years Since Graduation | `AVERAGE(fact_graduate_employment[Years_Since_Graduation])` | Calculates the average years since graduation |
+| Internship Count | `CALCULATE([Total Graduates], dim_internship[Internship_Experience] = "Yes")` | Counts graduates with internship experience |
+| Internship Rate | `DIVIDE([Internship Count], [Total Graduates])` | Calculates the percentage of graduates with internship experience |
+| GPA Above 4 Count | `CALCULATE([Total Graduates], fact_graduate_employment[GPA_Above_4] = TRUE())` | Counts records with GPA above 4 |
+| Grad Age Under 16 Count | `CALCULATE([Total Graduates], fact_graduate_employment[Grad_Age_Under_16] = TRUE())` | Counts records with estimated graduation age below 16 |
+
+---
