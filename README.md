@@ -39,21 +39,6 @@
 </tr>
 
 <tr>
-<td><a href="1%20-%20Employment%20Overview.png">🖼️ Wireframe 1 - Employment Overview</a></td>
-<td>Wireframe/dashboard page for employment overview</td>
-</tr>
-
-<tr>
-<td><a href="2%20-%20Salary%20Analysis.png">🖼️ Wireframe 2 - Salary Analysis</a></td>
-<td>Wireframe/dashboard page for salary analysis</td>
-</tr>
-
-<tr>
-<td><a href="3%20-%20Graduate%20Profile.png">🖼️ Wireframe 3 - Graduate Profile</a></td>
-<td>Wireframe/dashboard page for graduate profile</td>
-</tr>
-
-<tr>
 <td><a href="Final%20Power%20BI%20Dashboard%20(Group%202%20-%20C302).pbix">⚡ Final Power BI Dashboard</a></td>
 <td>Final Power BI dashboard file for Group 2 - C302</td>
 </tr>
