@@ -53,9 +53,9 @@
 ## 👥 Project Members
 
 ### ✨ Ervin Esguerra  
-### ✨ Hoshea Balajdia  
-### ✨ Nica Dizon  
-### ✨ Joan Gutierez  
+### ✨ Hoshea Antonette Balajadia  
+### ✨ Nica Mae Dizon  
+### ✨ Joan Crisel Gutierez  
 ### ✨ Patrick Paragas  
 
 
