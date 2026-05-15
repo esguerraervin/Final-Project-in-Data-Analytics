@@ -55,7 +55,7 @@
 ### ✨ Ervin Esguerra  
 ### ✨ Hoshea Antonette Balajadia  
 ### ✨ Nica Mae Dizon  
-### ✨ Joan Crisel Gutierez  
+### ✨ Joan Crisel Gutierrez  
 ### ✨ Patrick Paragas  
 
 
