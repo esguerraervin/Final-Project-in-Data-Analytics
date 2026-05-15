@@ -54,23 +54,9 @@ EDA helps answer questions such as:
 | Filters Panel | Slicers | Enable interactive filtering | Education Level, Job Sector, University Ranking |
 
 ---
----
+## 🖥️ Dashboard Wireframe Summary
 
-## 🖥️ Dashboard Documentation
-
-| Dashboard Element | Description | Purpose |
-|:---|:---|:---|
-| Dashboard Title | International Graduate Employment Analytics Dashboard | Identifies the main topic of the dashboard |
-| Dashboard Tool | Power BI | Used for data visualization, KPI creation, filtering, and interactive reporting |
-| Dashboard Framework | DASH Framework | Used to organize the dashboard based on decision, audience, signal, and hierarchy |
-| Main Objective | Analyze international graduate employment outcomes | Helps understand employment status, salary, education, field of study, internship experience, and graduate profile |
-| Target Audience | Students, educators, school administrators, and career planning officers | Helps users understand employment trends and support career-related decisions |
-| Data Model | Star Schema | Connects one fact table to multiple dimension tables for better filtering and analysis |
-| Fact Table | `fact_graduate_employment` | Stores graduate records, numeric measures, and foreign keys |
-| Dimension Tables | Country, Education, Field, Language, Visa, Gender, Region, Internship, Employment Status, Job Sector | Stores descriptive categories used for slicers and chart grouping |
-| Interactivity | Slicers and chart interactions | Allows users to filter and explore the data by country, education, field, region, gender, visa type, and employment status |
-
----
+| Dashboard Page | Visual | Purpose | Key Metrics | |:---|:---|:---|:---| | Overview Dashboard | KPI Cards | Display overall graduate employment statistics | Total Graduates, Employment Rate, Average Salary | | Employment Analysis | Bar & Pie Charts | Analyze employment distribution | Employed, Unemployed, Continuing Education | | Salary Insights | Histogram & Box Plot | Analyze salary distribution and outliers | Average Salary, Salary Range | | Academic Performance | Scatter Plot | Explore GPA vs Salary relationship | GPA, Salary | | Internship Impact | Column Chart | Compare employment outcomes with internship experience | Internship Rate, Employment Rate | | Demographic Analysis | Age Distribution Chart | Analyze graduate demographics | Average Age, Years Since Graduation | | Data Quality Dashboard | Tables & KPI Cards | Monitor data quality issues | GPA Above 4, Grad Age Under 16 | | Filters Panel | Slicers | Enable interactive filtering | Education Level, Job Sector, University Ranking | ---****
 
 ---
 
