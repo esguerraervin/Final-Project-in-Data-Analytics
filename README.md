@@ -40,7 +40,7 @@
 
 <tr>
 <td><a href="Final%20Power%20BI%20Dashboard%20(Group%202%20-%20C302).pbix">⚡ Final Power BI Dashboard</a></td>
-<td>Final Power BI dashboard file for Group 2 - C302</td>
+<td>Final Power BI dashboard file for Group 2 (C302)</td>
 </tr>
 
 </table>
