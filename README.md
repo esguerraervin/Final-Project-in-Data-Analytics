@@ -1,15 +1,69 @@
-# Final Project in Data Analytics
+<div align="center">
 
-## Files
+# 🎓 Final Project in Data Analytics
 
-| File | Description |
-|---|---|
-| [Dataset](dataset.csv) | Dataset used for the project |
-| [Documentation Part 1](Documentation%20Part%201.md) | Data preprocessing, CLEAN Framework, transformed data, and data model |
-| [Documentation Part 2](Documentation%20part%202.md) | Exploratory Data Analysis, measures, dashboard wireframe, and dashboard design |
-| [Insights and Recommendation](Insights%20and%20Recommendation.md) | Data-driven insights, recommendations, and real-world interpretation |
-| [Wireframe 1 - Employment Overview](1%20-%20Employment%20Overview.png) | Wireframe/dashboard page for employment overview |
-| [Wireframe 2 - Salary Analysis](2%20-%20Salary%20Analysis.png) | Wireframe/dashboard page for salary analysis |
-| [Wireframe 3 - Graduate Profile](3%20-%20Graduate%20Profile.png) | Wireframe/dashboard page for graduate profile |
-| [Final Power BI Dashboard](Final%20Power%20BI%20Dashboard%20(Group%202%20-%20C302).pbix) | Final Power BI dashboard file for Group 2 - C302 |
+![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-yellow?style=for-the-badge)
+![Project](https://img.shields.io/badge/Project-Final%20Analytics-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
+</div>
+
+---
+
+# 📂 Project Files
+
+<table>
+<tr>
+<th>📄 File</th>
+<th>📝 Description</th>
+</tr>
+
+<tr>
+<td><a href="dataset.csv">📊 Dataset</a></td>
+<td>Dataset used for the project</td>
+</tr>
+
+<tr>
+<td><a href="Documentation%20Part%201.md">📘 Documentation Part 1</a></td>
+<td>Data preprocessing, CLEAN Framework, transformed data, and data model</td>
+</tr>
+
+<tr>
+<td><a href="Documentation%20part%202.md">📗 Documentation Part 2</a></td>
+<td>Exploratory Data Analysis, measures, dashboard wireframe, and dashboard design</td>
+</tr>
+
+<tr>
+<td><a href="Insights%20and%20Recommendation.md">📈 Insights and Recommendation</a></td>
+<td>Data-driven insights, recommendations, and real-world interpretation</td>
+</tr>
+
+<tr>
+<td><a href="1%20-%20Employment%20Overview.png">🖼️ Wireframe 1 - Employment Overview</a></td>
+<td>Wireframe/dashboard page for employment overview</td>
+</tr>
+
+<tr>
+<td><a href="2%20-%20Salary%20Analysis.png">🖼️ Wireframe 2 - Salary Analysis</a></td>
+<td>Wireframe/dashboard page for salary analysis</td>
+</tr>
+
+<tr>
+<td><a href="3%20-%20Graduate%20Profile.png">🖼️ Wireframe 3 - Graduate Profile</a></td>
+<td>Wireframe/dashboard page for graduate profile</td>
+</tr>
+
+<tr>
+<td><a href="Final%20Power%20BI%20Dashboard%20(Group%202%20-%20C302).pbix">⚡ Final Power BI Dashboard</a></td>
+<td>Final Power BI dashboard file for Group 2 - C302</td>
+</tr>
+
+</table>
+
+---
+
+<div align="center">
+
+### ⭐ Enhanced GitHub README File Structure
+
+</div>
