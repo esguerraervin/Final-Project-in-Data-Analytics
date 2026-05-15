@@ -162,17 +162,17 @@ Main columns:
 
 ```mermaid
 erDiagram
-    fact_graduate_employment }o--|| dim_country_of_origin : Country_ID
-    fact_graduate_employment }o--|| dim_education : Education_ID
-    fact_graduate_employment }o--|| dim_field : Field_ID
-    fact_graduate_employment }o--|| dim_language : Language_ID
-    fact_graduate_employment }o--|| dim_visa : Visa_ID
-    fact_graduate_employment }o--|| dim_gender : Gender_ID
-    fact_graduate_employment }o--|| dim_university_ranking : UniversityRanking_ID
-    fact_graduate_employment }o--|| dim_region : Region_ID
-    fact_graduate_employment }o--|| dim_internship : Internship_ID
-    fact_graduate_employment }o--|| dim_employment_status : EmploymentStatus_ID
-    fact_graduate_employment }o--|| dim_jobs_sector : JobSector_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_COUNTRY : Country_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_EDUCATION : Education_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_FIELD : Field_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_LANGUAGE : Language_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_VISA : Visa_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_GENDER : Gender_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_UNIVERSITY_RANKING : UniversityRanking_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_REGION : Region_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_INTERNSHIP : Internship_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_EMPLOYMENT_STATUS : EmploymentStatus_ID
+    FACT_GRADUATE_EMPLOYMENT }o--|| DIM_JOBS_SECTOR : JobSector_ID
 
 # Exploratory Data Analysis (EDA)
 
