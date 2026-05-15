@@ -1,6 +1,14 @@
-# International Graduate Employment Analytics Dashboard
+<div align="center">
 
-## Project Overview
+# 🎓 International Graduate Employment Analytics Dashboard
+
+### 📊 Data Analytics Final Project
+
+</div>
+
+---
+
+# 📖 Project Overview
 
 This project analyzes the employment outcomes of international graduates using Power BI. The dashboard focuses on graduate employment status, salary, education background, field of study, internship experience, visa type, region of study, and job sector.
 
@@ -8,13 +16,20 @@ The goal is to identify patterns that can help understand which factors are rela
 
 ---
 
-## Dataset
+# 📂 Dataset
+
+<div align="center">
+
+## 🌍 International Graduates Employment Dataset
+
+</div>
 
 The dataset used in this project is the **International Graduates Employment Dataset** from Kaggle.
 
-Dataset link: https://www.kaggle.com/datasets/quackquackrp/international-graduates-employment-dataset
+Dataset link:  
+https://www.kaggle.com/datasets/quackquackrp/international-graduates-employment-dataset
 
-Original dataset columns include:
+### Original Dataset Columns
 
 - Country of Origin
 - Education Level
@@ -39,6 +54,7 @@ Original dataset columns include:
 # 📘 Documentation
 
 ### ***Data Cleaning Process***
+
 ![Status](https://img.shields.io/badge/Data-Cleaning-orange)
 ![Dataset](https://img.shields.io/badge/Data-Transformed-blue)
 ![Rows](https://img.shields.io/badge/Rows-299,997-success)
@@ -66,9 +82,9 @@ Original dataset columns include:
 
 ---
 
-## ⚙ Formula Documentation
+# ⚙️ Formula Documentation
 
-### Education_Level_Code
+## Education_Level_Code
 
 ```powerquery
 if [Education_Level]="Diploma" then 1
@@ -80,7 +96,7 @@ else null
 
 ---
 
-### Language_Proficiency_Code
+## Language_Proficiency_Code
 
 ```powerquery
 if [Language_Proficiency]="Basic" then 1
@@ -92,7 +108,7 @@ else null
 
 ---
 
-### University_Ranking_Code
+## University_Ranking_Code
 
 ```powerquery
 if [University_Ranking]="Low" then 1
@@ -103,21 +119,17 @@ else null
 
 ---
 
-<div align="center">
-
-</div>
-
-## Data Model
+# 🗄️ Data Model
 
 The project uses a **star schema** because it is simple, readable, and suitable for Power BI dashboards.
 
-### Fact Table
+## Fact Table
 
 `fact_graduate_employment`
 
 This table contains the main graduate records, numeric values, measures, and foreign keys connected to dimension tables.
 
-Main columns:
+### Main Columns
 
 - Graduate_ID
 - Country_ID
@@ -142,7 +154,9 @@ Main columns:
 - GPA_Above_4
 - Grad_Age_Under_16
 
-### Dimension Tables
+---
+
+## Dimension Tables
 
 | Dimension Table | Description |
 |---|---|
@@ -158,7 +172,9 @@ Main columns:
 | `dim_employment_status` | Stores employment status |
 | `dim_jobs_sector` | Stores job sector |
 
-### Star Schema
+---
+
+# ⭐ Star Schema
 
 ```mermaid
 erDiagram
@@ -173,3 +189,6 @@ erDiagram
     fact_graduate_employment }o--|| dim_internship : Internship_ID
     fact_graduate_employment }o--|| dim_employment_status : EmploymentStatus_ID
     fact_graduate_employment }o--|| dim_jobs_sector : JobSector_ID
+```
+
+
