@@ -2,7 +2,7 @@
 
 # 📘 Documentation
 
-### Data Quality Issues & Resolution Log
+### Data Cleaning Process****
 ![Status](https://img.shields.io/badge/Data-Cleaning-orange)
 ![Dataset](https://img.shields.io/badge/Data-Transformed-blue)
 ![Rows](https://img.shields.io/badge/Rows-299,997-success)
