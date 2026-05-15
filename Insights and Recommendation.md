@@ -1,5 +1,3 @@
----
-
 ## 💡 Insights and Recommendations
 
 | No. | Insight | Evidence / Finding | Recommendation | Real-World Interpretation |
@@ -9,5 +7,3 @@
 | 3 | Salary analysis should focus only on employed graduates | Non-employed graduates have no applicable salary, so their salary values were kept as `null` | Use average salary measures that ignore null values and focus on employed graduates only | This prevents salary averages from being lowered by records where salary is not applicable |
 | 4 | Job sector applies only to employed graduates | `N/A` job sector values were replaced with `Not Applicable` for unemployed and continuing education records | Filter job sector analysis to employed graduates when interpreting salary or sector outcomes | This avoids misleading conclusions because non-employed graduates do not belong to a job sector |
 | 5 | Education level and field of study help explain employment and salary outcomes | Employment rate and average salary can be compared across education levels and fields of study | Use education and field-based visuals to identify which academic backgrounds are linked to better outcomes | Schools and students can use this information for academic planning and career guidance |
-
----
