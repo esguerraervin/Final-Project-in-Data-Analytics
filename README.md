@@ -1,3 +1,39 @@
+# International Graduate Employment Analytics Dashboard
+
+## Project Overview
+
+This project analyzes the employment outcomes of international graduates using Power BI. The dashboard focuses on graduate employment status, salary, education background, field of study, internship experience, visa type, region of study, and job sector.
+
+The goal is to identify patterns that can help understand which factors are related to employment outcomes and salary differences among international graduates.
+
+---
+
+## Dataset
+
+The dataset used in this project is the **International Graduates Employment Dataset** from Kaggle.
+
+Dataset link: https://www.kaggle.com/datasets/quackquackrp/international-graduates-employment-dataset
+
+Original dataset columns include:
+
+- Country of Origin
+- Education Level
+- Field of Study
+- Language Proficiency
+- Visa Type
+- Gender
+- University Ranking
+- Region of Study
+- Age
+- Years Since Graduation
+- GPA
+- Internship Experience
+- Employment Status
+- Salary
+- Job Sector
+
+---
+
 <div align="center">
 
 # 📘 Documentation
@@ -70,64 +106,6 @@ else null
 <div align="center">
 
 </div>
-
-# International Graduate Employment Analytics Dashboard
-
-## Project Overview
-
-This project analyzes the employment outcomes of international graduates using Power BI. The dashboard focuses on graduate employment status, salary, education background, field of study, internship experience, visa type, region of study, and job sector.
-
-The goal is to identify patterns that can help understand which factors are related to employment outcomes and salary differences among international graduates.
-
----
-
-## Dataset
-
-The dataset used in this project is the **International Graduates Employment Dataset** from Kaggle.
-
-Dataset link: https://www.kaggle.com/datasets/quackquackrp/international-graduates-employment-dataset
-
-Original dataset columns include:
-
-- Country of Origin
-- Education Level
-- Field of Study
-- Language Proficiency
-- Visa Type
-- Gender
-- University Ranking
-- Region of Study
-- Age
-- Years Since Graduation
-- GPA
-- Internship Experience
-- Employment Status
-- Salary
-- Job Sector
-
----
-
-## Data Preprocessing
-
-The dataset was cleaned and transformed using Power Query in Power BI.
-
-### Cleaning Steps
-
-| Step | Description |
-|---|---|
-| Removed duplicates | Exact duplicate records were removed |
-| Trimmed text | Extra spaces before and after text values were removed |
-| Cleaned text | Hidden or invisible characters were removed |
-| Replaced values | `N/A` in Job Sector was replaced with `Not Applicable` |
-| Created flags | Unusual values were flagged instead of deleted |
-| Encoded categories | Some text categories were converted into numeric codes |
-| Normalized numbers | Numeric columns were converted into a 0 to 1 scale |
-
-### Reason for Replacing `N/A`
-
-The `N/A` values in `Job_Sector` were replaced with `Not Applicable` because job sector only applies to employed graduates. For unemployed graduates and those continuing education, job sector is not relevant.
-
----
 
 ## Data Model
 
