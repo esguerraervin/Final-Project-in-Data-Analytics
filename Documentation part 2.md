@@ -238,6 +238,5 @@ EDA helps answer questions such as:
 
 <div align="center">
 
-### ⭐ Designed for Better GitHub Readability
 
 </div>
