@@ -41,10 +41,11 @@ EDA helps answer questions such as:
 
 ## 🖥️ Dashboard Wireframe Summary
 
-| Dashboard Page | Visual | Purpose | Key Metrics |
-|:---|:---|:---|:---|
-| Overview Dashboard | KPI Cards | Display overall graduate employment statistics | Total Graduates, Employment Rate, Average Salary |
-| Employment Analysis | Bar & Pie Charts | Analyze employment distribution | Employed, Unemployed, Continuing Education |
+| Dashboard Page | Preview | Visual | Purpose | Key Metrics |
+|:---|:---|:---|:---|:---|
+| Overview Dashboard | ![Overview Dashboard](1-%20Employment%20Overview.png) | KPI Cards | Display overall graduate employment statistics | Total Graduates, Employment Rate, Average Salary |
+| Employment Analysis | ![Salary Analysis](2-%20Salary%20Analysis.png) | Bar & Pie Charts | Analyze employment distribution | Employed, Unemployed, Continuing Education |
+| Graduate Profile Dashboard | ![Graduate Profile](3-%20Graduate%20Profile.png) | Demographic & Academic Charts | Analyze graduate demographics and academic profile | GPA, Age, Education Level |
 | Salary Insights | Histogram & Box Plot | Analyze salary distribution and outliers | Average Salary, Salary Range |
 | Academic Performance | Scatter Plot | Explore GPA vs Salary relationship | GPA, Salary |
 | Internship Impact | Column Chart | Compare employment outcomes with internship experience | Internship Rate, Employment Rate |
@@ -53,7 +54,6 @@ EDA helps answer questions such as:
 | Filters Panel | Slicers | Enable interactive filtering | Education Level, Job Sector, University Ranking |
 
 ---
-
 ---
 
 ## 🖥️ Dashboard Documentation
