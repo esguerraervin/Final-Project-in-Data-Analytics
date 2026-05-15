@@ -69,6 +69,129 @@ else null
 
 <div align="center">
 
-Documentation generated from transformation audit table
-
 </div>
+
+# International Graduate Employment Analytics Dashboard
+
+## Project Overview
+
+This project analyzes the employment outcomes of international graduates using Power BI. The dashboard focuses on graduate employment status, salary, education background, field of study, internship experience, visa type, region of study, and job sector.
+
+The goal is to identify patterns that can help understand which factors are related to employment outcomes and salary differences among international graduates.
+
+---
+
+## Dataset
+
+The dataset used in this project is the **International Graduates Employment Dataset** from Kaggle.
+
+Dataset link: https://www.kaggle.com/datasets/quackquackrp/international-graduates-employment-dataset
+
+Original dataset columns include:
+
+- Country of Origin
+- Education Level
+- Field of Study
+- Language Proficiency
+- Visa Type
+- Gender
+- University Ranking
+- Region of Study
+- Age
+- Years Since Graduation
+- GPA
+- Internship Experience
+- Employment Status
+- Salary
+- Job Sector
+
+---
+
+## Data Preprocessing
+
+The dataset was cleaned and transformed using Power Query in Power BI.
+
+### Cleaning Steps
+
+| Step | Description |
+|---|---|
+| Removed duplicates | Exact duplicate records were removed |
+| Trimmed text | Extra spaces before and after text values were removed |
+| Cleaned text | Hidden or invisible characters were removed |
+| Replaced values | `N/A` in Job Sector was replaced with `Not Applicable` |
+| Created flags | Unusual values were flagged instead of deleted |
+| Encoded categories | Some text categories were converted into numeric codes |
+| Normalized numbers | Numeric columns were converted into a 0 to 1 scale |
+
+### Reason for Replacing `N/A`
+
+The `N/A` values in `Job_Sector` were replaced with `Not Applicable` because job sector only applies to employed graduates. For unemployed graduates and those continuing education, job sector is not relevant.
+
+---
+
+## Data Model
+
+The project uses a **star schema** because it is simple, readable, and suitable for Power BI dashboards.
+
+### Fact Table
+
+`fact_graduate_employment`
+
+This table contains the main graduate records, numeric values, measures, and foreign keys connected to dimension tables.
+
+Main columns:
+
+- Graduate_ID
+- Country_ID
+- Education_ID
+- Field_ID
+- Language_ID
+- Visa_ID
+- Gender_ID
+- UniversityRanking_ID
+- Region_ID
+- Internship_ID
+- EmploymentStatus_ID
+- JobSector_ID
+- Age
+- Years_Since_Graduation
+- Graduation_Age
+- GPA
+- Salary
+- Age_Normalized
+- GPA_Normalized
+- Salary_Normalized
+- GPA_Above_4
+- Grad_Age_Under_16
+
+### Dimension Tables
+
+| Dimension Table | Description |
+|---|---|
+| `dim_country_of_origin` | Stores country of origin |
+| `dim_education` | Stores education level and education code |
+| `dim_field` | Stores field of study |
+| `dim_language` | Stores language proficiency and language code |
+| `dim_visa` | Stores visa type |
+| `dim_gender` | Stores gender |
+| `dim_university_ranking` | Stores university ranking and ranking code |
+| `dim_region` | Stores region of study |
+| `dim_internship` | Stores internship experience |
+| `dim_employment_status` | Stores employment status |
+| `dim_jobs_sector` | Stores job sector |
+
+### Star Schema
+
+```mermaid
+erDiagram
+    fact_graduate_employment }o--|| dim_country_of_origin : Country_ID
+    fact_graduate_employment }o--|| dim_education : Education_ID
+    fact_graduate_employment }o--|| dim_field : Field_ID
+    fact_graduate_employment }o--|| dim_language : Language_ID
+    fact_graduate_employment }o--|| dim_visa : Visa_ID
+    fact_graduate_employment }o--|| dim_gender : Gender_ID
+    fact_graduate_employment }o--|| dim_university_ranking : UniversityRanking_ID
+    fact_graduate_employment }o--|| dim_region : Region_ID
+    fact_graduate_employment }o--|| dim_internship : Internship_ID
+    fact_graduate_employment }o--|| dim_employment_status : EmploymentStatus_ID
+    fact_graduate_employment }o--|| dim_jobs_sector : JobSector_ID
